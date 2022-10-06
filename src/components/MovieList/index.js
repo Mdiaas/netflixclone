@@ -1,5 +1,5 @@
 import React from "react";
-import './MovieList.css';
+import './index.css';
 const MovieList = ({title, items}) => {
     return (
         <div className="movieList">
@@ -14,7 +14,6 @@ const MovieList = ({title, items}) => {
                         )) 
                     }
                 </div>
-                
             </div>
         </div>
     );

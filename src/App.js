@@ -2,8 +2,8 @@ import React, {useEffect, useState} from "react";
 import tmdb from "./tmdb";
 import MovieList from "./components/MovieList";
 import FeaturedMovie from "./components/FeaturedMovie";
-import Header from "./components/Header/index";
-import Footer from "./components/Footer/index";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 import './App.css';
 const FunctionList = ({black}) => {
   const [movieList, setMovieList] = useState([]);
