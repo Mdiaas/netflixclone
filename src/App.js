@@ -3,6 +3,7 @@ import tmdb from "./tmdb";
 import MovieList from "./components/MovieList";
 import FeaturedMovie from "./components/FeaturedMovie";
 import Header from "./components/Header/index";
+import Footer from "./components/Footer/index";
 import './App.css';
 const FunctionList = ({black}) => {
   const [movieList, setMovieList] = useState([]);
@@ -51,6 +52,7 @@ const FunctionList = ({black}) => {
           ))
         }
         </section>
+        <Footer></Footer>
     </div>
   );
 }
